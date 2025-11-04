@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Input/Actions/IA_SwapSides.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Input/Actions/IA_FirePrimary.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Input/Actions/IA_FireSecondary.uasset"
+			]
+		}
+	]
+}
