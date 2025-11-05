@@ -1897,3 +1897,456 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.05-14.49.13:212][856]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2487.350342
 [2025.11.05-14.49.14:211][859]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.11.05-14.49.14:211][859]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2488.016846, Update Interval: 341.428864
+[2025.11.05-14.53.48:444][103]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.05-14.53.48:447][103]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.11.05-14.53.48:447][103]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.11.05-14.53.48:449][103]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.420 ms (total: 8.877 ms)
+[2025.11.05-14.53.48:449][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.05-14.53.48:449][103]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.05-14.53.48:451][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002210s)
+[2025.11.05-14.53.48:451][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002238s)
+[2025.11.05-14.53.48:469][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.11.05-14.53.48:470][103]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.11.05-14.53.48:471][103]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.05-14.53.48:471][103]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.05-14.53.48:471][103]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.05-14.53.48:471][103]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.05-14.53.48:472][103]LogWorldPartition: Display: WorldPartition initialize took 853 us (total: 205.283 ms)
+[2025.11.05-14.53.48:472][103]LogPlayLevel: PIE: World Init took: (0.002281s)
+[2025.11.05-14.53.48:473][103]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.11.05-14.53.48:473][103]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.05-14.53.48:473][103]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.05-14.53.48:473][103]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.05-14.53.48:473][103]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.05-14.53.48:473][103]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.05-14.53.48:473][103]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.05-14.53.48:473][103]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.05-14.53.48:473][103]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.05-14.53.48:473][103]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.05-14.53.48:473][103]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.05-14.53.48:473][103]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.05-14.53.48:475][103]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.05-14.53.48:492][103]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.05-14.53.48:492][103]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.05-14.53.48:492][103]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.05-14.53.48:492][103]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.05-14.53.48:493][103]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.11.05-14.53.48:493][103]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.11.05-14.53.48:495][103]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.11.05-14.53.48:495][103]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.11.05-14.53.48:495][103]LogInit: FAudioDevice initialized with ID 6.
+[2025.11.05-14.53.48:495][103]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2025.11.05-14.53.48:495][103]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.11.05-14.53.48:497][103]LogLoad: Game class is 'BP_ArmsGamemode_C'
+[2025.11.05-14.53.48:498][103]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.11.05-07.53.48
+[2025.11.05-14.53.48:498][103]LogWorld: Bringing up level for play took: 0.001132
+[2025.11.05-14.53.48:500][103]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.11.05-14.53.48:503][103]PIE: Server logged in
+[2025.11.05-14.53.48:503][103]PIE: Play in editor total start time 0.056 seconds.
+[2025.11.05-14.53.48:935][146]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.05-14.53.49:064][161]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.05-14.53.50:369][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.05-14.53.50:369][313]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.05-14.53.50:369][313]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-14.53.50:370][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-14.53.50:370][313]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.11.05-14.53.50:373][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.05-14.53.50:377][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-14.53.50:393][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.05-14.53.50:393][313]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.11.05-14.53.50:393][313]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.11.05-14.53.50:395][313]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.11.05-14.53.50:401][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.11.05-14.53.50:451][315]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.11.05-14.54.00:265][ 62]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.11.05-14.54.01:989][256]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.11.05-14.54.01:999][257]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.11.05-14.54.02:040][258]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.11.05-14.54.02:059][259]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.11.05-14.54.02:099][260]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.11.05-14.54.06:704][574]LogStreaming: Display: FlushAsyncLoading(581): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-14.54.06:748][574]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/Assets/Exports/PlaceholderArmTest.fbx]
+[2025.11.05-14.54.15:252][574]LogSlate: Window 'Import Content' being destroyed
+[2025.11.05-14.54.15:284][574]LogInterchangeEngine: [Pending] Importing
+[2025.11.05-14.54.15:311][574]LogAutomationController: Ignoring very large delta of 8.62 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.11.05-14.54.15:368][575]LogStreaming: Display: FlushAsyncLoading(586): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-14.54.15:415][576]LogStreaming: Display: FlushAsyncLoading(587): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-14.54.21:981][577]LogSlate: Window 'Message' being destroyed
+[2025.11.05-14.54.21:988][577]Message dialog closed, result: No, title: Message, text: Failed to merge bones.
+
+ This can happen if significant hierarchical changes have been made,
+such as inserting a bone between nodes.
+
+Would you like to regenerate the Skeleton from this mesh? This may invalidate or require recompression of animation data.
+
+[2025.11.05-14.54.21:994][578]LogAutomationController: Ignoring very large delta of 6.53 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.11.05-14.54.22:001][578]LogSkeletalMesh: Building Skeletal Mesh PlaceholderArmTest...
+[2025.11.05-14.54.22:007][579]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Arms/Meshes/PlaceholderArmTest.PlaceholderArmTest
+[2025.11.05-14.54.22:176][580]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.11.05-14.54.22:189][580]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_13:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2025.11.05-14.54.22:189][580]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-14.54.22:189][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-14.54.22:192][580]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.11.05-14.54.22:205][580]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_14:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2025.11.05-14.54.22:205][580]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-14.54.22:205][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-14.54.22:228][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.11.05-14.54.22:262][581]LogInterchangeEngine: Display: Interchange import completed [C:/Users/brest/sourc...rmsGJ/Assets/Exports/PlaceholderArmTest.fbx]
+[2025.11.05-14.54.22:273][581]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.11.05-14.54.22:273][581]LogInterchangeEngine: [Success] Import Done
+[2025.11.05-14.54.22:323][583]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.11.05-14.54.25:334][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.11.05-14.54.25:336][883]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.018
+[2025.11.05-14.54.25:337][883]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Arms/Meshes/PlaceholderArmTest_PhysicsAsset] ([1] browsable assets)...
+[2025.11.05-14.54.25:342][883]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Arms/Meshes/PlaceholderArmTest_PhysicsAsset.PlaceholderArmTest_PhysicsAsset]
+[2025.11.05-14.54.25:342][883]OBJ SavePackage: Finished generating thumbnails for package [/Game/Arms/Meshes/PlaceholderArmTest_PhysicsAsset]
+[2025.11.05-14.54.25:343][883]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Arms/Meshes/PlaceholderArmTest_PhysicsAsset_Auto1
+[2025.11.05-14.54.25:343][883]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/PlaceholderArmTest_PhysicsAsset_89E1210B4D0245B4D94E1493E2BF8DF6.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/Autosaves/Game/Arms/Meshes/PlaceholderArmTest_PhysicsAsset_Auto1.uasset'
+[2025.11.05-14.54.25:344][883]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Arms/Meshes/PlaceholderArmTest] ([1] browsable assets)...
+[2025.11.05-14.54.25:349][883]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Arms/Meshes/PlaceholderArmTest.PlaceholderArmTest]
+[2025.11.05-14.54.25:349][883]OBJ SavePackage: Finished generating thumbnails for package [/Game/Arms/Meshes/PlaceholderArmTest]
+[2025.11.05-14.54.25:352][883]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Arms/Meshes/PlaceholderArmTest_Auto1
+[2025.11.05-14.54.25:352][883]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/PlaceholderArmTest_Auto1DFE039054A873F7B518118AB2E2188E2.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/Autosaves/Game/Arms/Meshes/PlaceholderArmTest_Auto1.uasset'
+[2025.11.05-14.54.25:353][883]LogFileHelpers: Auto-saving content packages took 0.016
+[2025.11.05-14.54.29:313][294]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Arms/Meshes/PlaceholderArmTest.PlaceholderArmTest
+[2025.11.05-14.54.29:324][294]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.11.05-14.54.29:331][294]LogStreaming: Display: FlushAsyncLoading(588): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-14.54.29:344][294]LogStaticMesh: Display: Building static mesh Sphere_inversenormals (Required Memory Estimate: 1.522745 MB)...
+[2025.11.05-14.54.29:350][294]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2025.11.05-14.54.29:367][294]LogStaticMesh: Display: Building static mesh Floor_Mesh (Required Memory Estimate: 0.022237 MB)...
+[2025.11.05-14.54.29:368][294]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2025.11.05-14.54.29:373][294]LoadErrors: The Skeleton  PH_Arm_Skeleton is missing bones that SkeletalMesh  PlaceholderArmTest needs. They will be added now. Please save the Skeleton!
+[2025.11.05-14.54.29:425][294]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.11.05-14.54.32:572][489]LogSlate: Window 'PlaceholderArmTest' being destroyed
+[2025.11.05-14.54.32:660][489]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-14.54.32:660][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-14.54.32:705][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.11.05-14.54.34:404][687]LogSlate: Window 'Message Log' being destroyed
+[2025.11.05-14.54.34:412][687]LogSlate: Window 'Message Log' being destroyed
+[2025.11.05-14.54.37:439][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.11.05-14.54.38:459][ 36]LogSlate: Window 'Delete Assets' being destroyed
+[2025.11.05-14.54.38:494][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.11.05-14.54.38:514][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.11.05-14.54.38:533][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.11.05-14.54.42:554][146]LogStreaming: Display: FlushAsyncLoading(593): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-14.54.42:599][146]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/Assets/Exports/PlaceholderArmTest.fbx]
+[2025.11.05-14.54.54:878][146]LogSlate: Window 'Import Content' being destroyed
+[2025.11.05-14.54.54:900][146]LogInterchangeEngine: [Pending] Importing
+[2025.11.05-14.54.54:929][146]LogAutomationController: Ignoring very large delta of 12.38 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.11.05-14.54.54:984][147]LogStreaming: Display: FlushAsyncLoading(594): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-14.54.55:030][148]LogStreaming: Display: FlushAsyncLoading(596): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-14.54.55:086][149]LogSkeletalMesh: Building Skeletal Mesh PlaceholderArmTest...
+[2025.11.05-14.54.55:086][150]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Arms/Meshes/PlaceholderArmTest.PlaceholderArmTest
+[2025.11.05-14.54.55:215][150]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.11.05-14.54.55:222][150]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2025.11.05-14.54.55:222][150]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-14.54.55:222][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-14.54.55:225][150]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.11.05-14.54.55:230][150]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_18:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2025.11.05-14.54.55:230][150]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-14.54.55:230][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-14.54.55:235][150]LogInterchangeEngine: Display: Interchange import completed [C:/Users/brest/sourc...rmsGJ/Assets/Exports/PlaceholderArmTest.fbx]
+[2025.11.05-14.54.55:247][150]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.11.05-14.54.55:247][150]LogInterchangeEngine: [Success] Import Done
+[2025.11.05-14.54.55:248][151]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.11.05-14.54.55:292][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.11.05-14.54.58:640][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.11.05-14.54.59:606][493]LogSlate: Window 'Save Content' being destroyed
+[2025.11.05-14.54.59:614][493]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-14.54.59:669][493]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Arms/Meshes/PlaceholderArmTest] ([1] browsable assets)...
+[2025.11.05-14.54.59:714][493]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Arms/Meshes/PlaceholderArmTest.PlaceholderArmTest]
+[2025.11.05-14.54.59:714][493]OBJ SavePackage: Finished generating thumbnails for package [/Game/Arms/Meshes/PlaceholderArmTest]
+[2025.11.05-14.54.59:716][493]LogSavePackage: Moving output files for package: /Game/Arms/Meshes/PlaceholderArmTest
+[2025.11.05-14.54.59:716][493]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/PlaceholderArmTest39DE55F84C440E22413C1691B74A356D.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Arms/Meshes/PlaceholderArmTest.uasset'
+[2025.11.05-14.54.59:718][493]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Arms/Meshes/PlaceholderArmTest_PhysicsAsset] ([1] browsable assets)...
+[2025.11.05-14.54.59:723][493]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Arms/Meshes/PlaceholderArmTest_PhysicsAsset.PlaceholderArmTest_PhysicsAsset]
+[2025.11.05-14.54.59:723][493]OBJ SavePackage: Finished generating thumbnails for package [/Game/Arms/Meshes/PlaceholderArmTest_PhysicsAsset]
+[2025.11.05-14.54.59:724][493]LogSavePackage: Moving output files for package: /Game/Arms/Meshes/PlaceholderArmTest_PhysicsAsset
+[2025.11.05-14.54.59:724][493]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/PlaceholderArmTest_PhysicsAssetAE21998541EC9A6D5645A08847FF783B.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Arms/Meshes/PlaceholderArmTest_PhysicsAsset.uasset'
+[2025.11.05-14.54.59:725][493]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Arms/Meshes/PlaceholderArmTest_Skeleton] ([1] browsable assets)...
+[2025.11.05-14.54.59:730][493]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/Arms/Meshes/PlaceholderArmTest_Skeleton.PlaceholderArmTest_Skeleton]
+[2025.11.05-14.54.59:731][493]OBJ SavePackage: Finished generating thumbnails for package [/Game/Arms/Meshes/PlaceholderArmTest_Skeleton]
+[2025.11.05-14.54.59:732][493]LogSavePackage: Moving output files for package: /Game/Arms/Meshes/PlaceholderArmTest_Skeleton
+[2025.11.05-14.54.59:732][493]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/PlaceholderArmTest_SkeletonE38F97774E4CB633E7F140927DBD1E3A.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Arms/Meshes/PlaceholderArmTest_Skeleton.uasset'
+[2025.11.05-14.54.59:740][493]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.929 ms (total: 547.816 ms)
+[2025.11.05-14.54.59:786][493]LogContentValidation: Display: Starting to validate 3 assets
+[2025.11.05-14.54.59:786][493]LogContentValidation: Enabled validators:
+[2025.11.05-14.54.59:786][493]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-14.54.59:786][493]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-14.54.59:786][493]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-14.54.59:786][493]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-14.54.59:786][493]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-14.54.59:786][493]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-14.54.59:786][493]AssetCheck: /Game/Arms/Meshes/PlaceholderArmTest Validating asset
+[2025.11.05-14.54.59:786][493]AssetCheck: /Game/Arms/Meshes/PlaceholderArmTest_PhysicsAsset Validating asset
+[2025.11.05-14.54.59:786][493]AssetCheck: /Game/Arms/Meshes/PlaceholderArmTest_Skeleton Validating asset
+[2025.11.05-14.55.04:392][968]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Arms/Meshes/PlaceholderArmTest.PlaceholderArmTest
+[2025.11.05-14.55.04:392][968]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Arms/Meshes/PlaceholderArmTest.PlaceholderArmTest
+[2025.11.05-14.55.04:393][968]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Arms/Meshes/PlaceholderArmTest.PlaceholderArmTest as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2025.11.05-14.55.04:393][968]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Arms/Meshes/PlaceholderArmTest.PlaceholderArmTest as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2025.11.05-14.55.04:495][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.11.05-14.55.04:496][975]LogEditorActor: Deleted 0 Actors (0.018 secs)
+[2025.11.05-14.55.16:287][342]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.11.05-14.55.18:969][652]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.11.05-14.55.19:006][654]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2025.11.05-14.55.19:061][657]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2025.11.05-14.55.19:067][657]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	PlayerLegsAnimBP_C /Engine/Transient.World_23:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.PlayerLegsAnimBP_C_0
+	Function /Game/Characters/PlayerLegsAnimBP.PlayerLegsAnimBP_C:ExecuteUbergraph_PlayerLegsAnimBP:0192
+[2025.11.05-14.55.19:097][659]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2025.11.05-14.55.19:154][662]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.11.05-14.55.19:404][690]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	PlayerLegsAnimBP_C /Engine/Transient.World_23:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.PlayerLegsAnimBP_C_1
+	Function /Game/Characters/PlayerLegsAnimBP.PlayerLegsAnimBP_C:ExecuteUbergraph_PlayerLegsAnimBP:0192
+[2025.11.05-14.55.19:415][691]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	PlayerLegsAnimBP_C /Engine/Transient.World_23:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.PlayerLegsAnimBP_C_2
+	Function /Game/Characters/PlayerLegsAnimBP.PlayerLegsAnimBP_C:ExecuteUbergraph_PlayerLegsAnimBP:0192
+[2025.11.05-14.55.19:425][692]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	PlayerLegsAnimBP_C /Engine/Transient.World_23:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.PlayerLegsAnimBP_C_3
+	Function /Game/Characters/PlayerLegsAnimBP.PlayerLegsAnimBP_C:ExecuteUbergraph_PlayerLegsAnimBP:0192
+[2025.11.05-14.55.20:241][778]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Characters/PlayerArmsTest_Skeleton.PlayerArmsTest_Skeleton
+[2025.11.05-14.55.20:242][778]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.11.05-14.55.20:248][778]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.11.05-14.55.20:445][778]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2025.11.05-14.55.24:076][107]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	PlayerLegsAnimBP_C /Engine/Transient.World_23:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.PlayerLegsAnimBP_C_4
+	Function /Game/Characters/PlayerLegsAnimBP.PlayerLegsAnimBP_C:ExecuteUbergraph_PlayerLegsAnimBP:0192
+[2025.11.05-14.55.25:488][245]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2859.632080
+[2025.11.05-14.55.25:612][258]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.05-14.55.25:612][258]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2859.746094, Update Interval: 342.324280
+[2025.11.05-14.55.26:292][321]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	PlayerLegsAnimBP_C /Engine/Transient.World_23:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.PlayerLegsAnimBP_C_5
+	Function /Game/Characters/PlayerLegsAnimBP.PlayerLegsAnimBP_C:ExecuteUbergraph_PlayerLegsAnimBP:0192
+[2025.11.05-14.55.50:915][711]LogShaderCompilers: Display: ================================================
+[2025.11.05-14.55.50:915][711]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.05-14.55.50:915][711]LogShaderCompilers: Display: Total job queries 185, among them cache hits 18 (9.73%), DDC hits 151 (81.62%), Duplicates 6 (3.24%)
+[2025.11.05-14.55.50:915][711]LogShaderCompilers: Display: Tracking 161 distinct input hashes that result in 145 distinct outputs (90.06%)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: RAM used: 117.37 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Shaders Compiled: 10
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100%)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Time job spent in pending queue: average 1.81 s, longest 9.03 s
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Job execution time: average 7.39 s, max 9.44 s
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Job life time (pending + execution): average 9.20 s, max 9.54
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Shader code size: average 7.311 KiB, min 4.113 KiB, max 11.129 KiB
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.55 s
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Average processing rate: 1.05 jobs/sec
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Total thread time: 3.757 s
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Total thread preprocess time: 1.978 s
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Percentage time preprocessing: 52.65%
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Effective parallelization: 0.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 0.59 sec, max 0.68 sec, min 0.49 sec)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.36 sec, max 0.45 sec, min 0.26 sec)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    2 times, average 0.34 sec, max 0.35 sec, min 0.33 sec)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.29 sec)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.29 sec, max 0.31 sec, min 0.28 sec)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 31.21% of total time (compiled    2 times, average 0.59 sec, max 0.68 sec, min 0.49 sec)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.01% of total time (compiled    2 times, average 0.36 sec, max 0.45 sec, min 0.26 sec)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display:                                                 FLumenCardPS - 18.26% of total time (compiled    2 times, average 0.34 sec, max 0.35 sec, min 0.33 sec)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.94% of total time (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.29 sec)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.58% of total time (compiled    2 times, average 0.29 sec, max 0.31 sec, min 0.28 sec)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: === Material stats ===
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Materials Translated:    134
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Material Translation Only: 0.03 s (38%)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: Material Cache Hits: 28 (21%)
+[2025.11.05-14.55.50:916][711]LogShaderCompilers: Display: ================================================
+[2025.11.05-14.55.53:618][927]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2025.11.05-14.56.54:219][608]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-14.56.54:266][608]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/PlayerArmsTest_Skeleton] ([1] browsable assets)...
+[2025.11.05-14.56.54:266][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/PlayerArmsTest_Skeleton]
+[2025.11.05-14.56.54:267][608]LogSavePackage: Moving output files for package: /Game/Characters/PlayerArmsTest_Skeleton
+[2025.11.05-14.56.54:267][608]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/PlayerArmsTest_SkeletonE103D79F45C7A0B88CCCF1BDABCFD307.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Characters/PlayerArmsTest_Skeleton.uasset'
+[2025.11.05-14.56.54:274][608]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.118 ms (total: 602.935 ms)
+[2025.11.05-14.56.54:331][608]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-14.56.54:331][608]LogContentValidation: Enabled validators:
+[2025.11.05-14.56.54:331][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-14.56.54:331][608]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-14.56.54:331][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-14.56.54:331][608]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-14.56.54:331][608]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-14.56.54:331][608]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-14.56.54:331][608]AssetCheck: /Game/Characters/PlayerArmsTest_Skeleton Validating asset
+[2025.11.05-14.56.56:118][789]LogSlate: Window 'PlayerArmsTest_Skeleton' being destroyed
+[2025.11.05-14.56.56:135][789]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-14.56.56:135][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-14.56.56:169][789]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-14.56.56:169][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-14.56.56:208][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.11.05-14.57.34:036][142]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'Hips' 
+[2025.11.05-14.57.34:036][142]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'RCalf' 
+[2025.11.05-14.57.34:036][142]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'LCalf' 
+[2025.11.05-14.57.34:037][142]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'Hips' 
+[2025.11.05-14.57.34:037][142]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'RCalf' 
+[2025.11.05-14.57.34:037][142]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'LCalf' 
+[2025.11.05-14.57.34:068][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.11.05-14.57.34:619][194]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-14.57.34:673][194]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter] ([2] browsable assets)...
+[2025.11.05-14.57.34:680][194]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ArmsCharacter.BP_ArmsCharacter]
+[2025.11.05-14.57.34:680][194]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter]
+[2025.11.05-14.57.34:705][194]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter
+[2025.11.05-14.57.34:705][194]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/BP_ArmsCharacter06B5D6F840C83D7C3BD0FD814A8A658B.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Blueprints/BP_ArmsCharacter.uasset'
+[2025.11.05-14.57.34:712][194]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.031 ms (total: 695.967 ms)
+[2025.11.05-14.57.34:773][194]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-14.57.34:773][194]LogContentValidation: Enabled validators:
+[2025.11.05-14.57.34:773][194]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-14.57.34:773][194]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-14.57.34:773][194]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-14.57.34:773][194]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-14.57.34:773][194]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-14.57.34:773][194]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-14.57.34:773][194]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter Validating asset
+[2025.11.05-14.57.35:925][313]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.05-14.57.35:929][313]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.11.05-14.57.35:929][313]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.11.05-14.57.35:930][313]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.505 ms (total: 10.382 ms)
+[2025.11.05-14.57.35:930][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.05-14.57.35:954][313]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.05-14.57.35:956][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002187s)
+[2025.11.05-14.57.35:956][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002232s)
+[2025.11.05-14.57.35:973][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.11.05-14.57.35:978][313]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.11.05-14.57.35:979][313]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.05-14.57.35:979][313]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.05-14.57.35:979][313]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.05-14.57.35:979][313]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.05-14.57.35:980][313]LogWorldPartition: Display: WorldPartition initialize took 829 us (total: 206.113 ms)
+[2025.11.05-14.57.35:980][313]LogPlayLevel: PIE: World Init took: (0.002069s)
+[2025.11.05-14.57.35:981][313]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.11.05-14.57.35:981][313]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.05-14.57.35:981][313]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.05-14.57.35:981][313]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.05-14.57.35:981][313]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.05-14.57.35:981][313]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.05-14.57.35:981][313]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.05-14.57.35:981][313]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.05-14.57.35:981][313]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.05-14.57.35:981][313]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.05-14.57.35:981][313]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.05-14.57.35:981][313]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.05-14.57.35:983][313]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.05-14.57.35:999][313]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.05-14.57.35:999][313]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.05-14.57.35:999][313]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.05-14.57.35:999][313]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.05-14.57.35:999][313]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.11.05-14.57.35:999][313]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.11.05-14.57.36:001][313]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.11.05-14.57.36:001][313]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.11.05-14.57.36:001][313]LogInit: FAudioDevice initialized with ID 7.
+[2025.11.05-14.57.36:001][313]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2025.11.05-14.57.36:001][313]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.11.05-14.57.36:003][313]LogLoad: Game class is 'BP_ArmsGamemode_C'
+[2025.11.05-14.57.36:004][313]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.11.05-07.57.36
+[2025.11.05-14.57.36:004][313]LogWorld: Bringing up level for play took: 0.001008
+[2025.11.05-14.57.36:006][313]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2025.11.05-14.57.36:009][313]PIE: Server logged in
+[2025.11.05-14.57.36:010][313]PIE: Play in editor total start time 0.081 seconds.
+[2025.11.05-14.57.36:377][337]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.05-14.57.36:520][353]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.05-14.57.43:724][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.05-14.57.43:724][133]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.05-14.57.43:724][133]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-14.57.43:725][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-14.57.43:725][133]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.11.05-14.57.43:728][133]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.05-14.57.43:732][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-14.57.43:748][133]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.05-14.57.43:748][133]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.11.05-14.57.43:748][133]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.11.05-14.57.43:750][133]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.11.05-14.57.43:753][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.05-14.57.43:755][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.11.05-14.57.43:807][135]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2025.11.05-15.01.29:936][719]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.05-15.01.35:358][341]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.05-15.01.43:206][239]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.05-15.01.48:752][873]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.05-15.01.56:864][820]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.05-15.01.57:040][839]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3251.176270
+[2025.11.05-15.01.57:152][852]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.05-15.01.57:153][853]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3251.280762, Update Interval: 317.851501
+[2025.11.05-15.02.05:277][803]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.05-15.02.09:200][255]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.05-15.02.13:018][692]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.05-15.02.22:935][832]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Edit Comment Color entirely.
+[2025.11.05-15.02.22:941][832]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.05-15.02.28:834][515]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.05-15.02.35:355][280]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Edit Comment Color entirely.
+[2025.11.05-15.02.35:360][280]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.05-15.03.01:308][200]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-15.03.01:366][200]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter] ([2] browsable assets)...
+[2025.11.05-15.03.01:428][200]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ArmsCharacter.BP_ArmsCharacter]
+[2025.11.05-15.03.01:429][200]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter]
+[2025.11.05-15.03.01:453][200]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter
+[2025.11.05-15.03.01:453][200]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/BP_ArmsCharacter96E60E7D4F355494F0B53F8297CDF541.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Blueprints/BP_ArmsCharacter.uasset'
+[2025.11.05-15.03.01:465][200]LogFileHelpers: InternalPromptForCheckoutAndSave took 156.009 ms (total: 851.976 ms)
+[2025.11.05-15.03.01:516][200]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-15.03.01:516][200]LogContentValidation: Enabled validators:
+[2025.11.05-15.03.01:516][200]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-15.03.01:516][200]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-15.03.01:516][200]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-15.03.01:516][200]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-15.03.01:516][200]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-15.03.01:516][200]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-15.03.01:516][200]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter Validating asset
+[2025.11.05-15.03.03:108][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'Hips' 
+[2025.11.05-15.03.03:108][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'RCalf' 
+[2025.11.05-15.03.03:108][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'LCalf' 
+[2025.11.05-15.03.03:111][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'Hips' 
+[2025.11.05-15.03.03:111][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'RCalf' 
+[2025.11.05-15.03.03:111][373]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_2:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'LCalf' 
+[2025.11.05-15.03.03:148][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.11.05-15.03.03:863][429]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-15.03.03:915][429]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter] ([2] browsable assets)...
+[2025.11.05-15.03.03:989][429]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ArmsCharacter.BP_ArmsCharacter]
+[2025.11.05-15.03.03:989][429]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter]
+[2025.11.05-15.03.04:012][429]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter
+[2025.11.05-15.03.04:012][429]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/BP_ArmsCharacterEA8DC8574BAE7DCD667FDD9FC41C170B.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Blueprints/BP_ArmsCharacter.uasset'
+[2025.11.05-15.03.04:022][429]LogFileHelpers: InternalPromptForCheckoutAndSave took 158.840 ms (total: 1.01 sec)
+[2025.11.05-15.03.04:082][429]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-15.03.04:082][429]LogContentValidation: Enabled validators:
+[2025.11.05-15.03.04:082][429]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-15.03.04:082][429]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-15.03.04:082][429]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-15.03.04:082][429]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-15.03.04:082][429]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-15.03.04:082][429]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-15.03.04:082][429]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter Validating asset
+[2025.11.05-15.03.20:655][  3]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-15.03.20:717][  3]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter] ([2] browsable assets)...
+[2025.11.05-15.03.20:717][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter]
+[2025.11.05-15.03.20:740][  3]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter
+[2025.11.05-15.03.20:740][  3]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/BP_ArmsCharacter7B98101A4A334B4EEFBEA9912B5EF997.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Blueprints/BP_ArmsCharacter.uasset'
+[2025.11.05-15.03.20:749][  3]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.831 ms (total: 1.10 sec)
+[2025.11.05-15.03.20:800][  3]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-15.03.20:800][  3]LogContentValidation: Enabled validators:
+[2025.11.05-15.03.20:800][  3]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-15.03.20:800][  3]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-15.03.20:800][  3]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-15.03.20:800][  3]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-15.03.20:801][  3]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-15.03.20:801][  3]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-15.03.20:801][  3]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter Validating asset
+[2025.11.05-15.04.22:379][420]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-15.04.22:434][420]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter] ([2] browsable assets)...
+[2025.11.05-15.04.22:434][420]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter]
+[2025.11.05-15.04.22:458][420]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter
+[2025.11.05-15.04.22:459][420]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/BP_ArmsCharacterC5C0AE8F4B34EB3BA4ABD3A64FAD81F4.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Blueprints/BP_ArmsCharacter.uasset'
+[2025.11.05-15.04.22:467][420]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.465 ms (total: 1.19 sec)
+[2025.11.05-15.04.22:515][420]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-15.04.22:515][420]LogContentValidation: Enabled validators:
+[2025.11.05-15.04.22:515][420]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-15.04.22:515][420]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-15.04.22:515][420]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-15.04.22:515][420]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-15.04.22:515][420]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-15.04.22:515][420]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-15.04.22:515][420]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter Validating asset
