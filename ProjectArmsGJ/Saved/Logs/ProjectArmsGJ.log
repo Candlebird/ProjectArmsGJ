@@ -2930,3 +2930,477 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.07-19.51.00:571][429]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.07-19.51.00:571][429]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.07-19.51.00:571][429]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.11.07-19.51.08:035][916]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5136.697266
+[2025.11.07-19.51.09:037][919]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.07-19.51.09:037][919]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5137.364258, Update Interval: 302.686249
+[2025.11.07-19.51.44:004][565]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	PlayerLegsAnimBP_C /Engine/Transient.World_15:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.PlayerLegsAnimBP_C_1
+	Function /Game/Characters/PlayerLegsAnimBP.PlayerLegsAnimBP_C:ExecuteUbergraph_PlayerLegsAnimBP:0192
+[2025.11.07-19.51.48:141][  3]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ArmsCharacter.BP_ArmsCharacter
+[2025.11.07-19.51.48:141][  3]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_30
+[2025.11.07-19.52.17:909][395]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Arms/Arm_Base.Arm_Base
+[2025.11.07-19.52.17:909][395]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_31
+[2025.11.07-19.52.37:213][563]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_30:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'Hips' 
+[2025.11.07-19.52.37:213][563]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_30:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'RCalf' 
+[2025.11.07-19.52.37:213][563]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_30:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'LCalf' 
+[2025.11.07-19.52.37:214][563]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_30:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'Hips' 
+[2025.11.07-19.52.37:214][563]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_30:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'RCalf' 
+[2025.11.07-19.52.37:214][563]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: BP_ArmsCharacter_C_0 /Engine/Transient.World_30:PersistentLevel.BP_ArmsCharacter_C_0.CharacterMesh0 Bone: 'LCalf' 
+[2025.11.07-19.52.37:215][563]LogPhysics: Warning: Scale for /Engine/Transient.World_30:PersistentLevel.Arm_Base_GEN_VARIABLE_Arm_Base_C_CAT_4.SelectSphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.11.07-19.52.37:215][563]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Arm_Base_GEN_VARIABLE_Arm_Base_C_CAT_4 /Engine/Transient.World_30:PersistentLevel.Arm_Base_GEN_VARIABLE_Arm_Base_C_CAT_4.SelectSphere 
+[2025.11.07-19.52.37:215][563]LogPhysics: Warning: Scale for /Engine/Transient.World_30:PersistentLevel.RArm_Base1_GEN_VARIABLE_Arm_Base_C_CAT_5.SelectSphere has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.11.07-19.52.37:215][563]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: RArm_Base1_GEN_VARIABLE_Arm_Base_C_CAT_5 /Engine/Transient.World_30:PersistentLevel.RArm_Base1_GEN_VARIABLE_Arm_Base_C_CAT_5.SelectSphere 
+[2025.11.07-19.52.37:296][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.11.07-19.52.37:830][608]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-19.52.37:882][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter] ([2] browsable assets)...
+[2025.11.07-19.52.37:938][608]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ArmsCharacter.BP_ArmsCharacter]
+[2025.11.07-19.52.37:938][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ArmsCharacter]
+[2025.11.07-19.52.37:972][608]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter
+[2025.11.07-19.52.37:973][608]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/BP_ArmsCharacter862AB3AF4AD4716249A2E5917D0674C8.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Blueprints/BP_ArmsCharacter.uasset'
+[2025.11.07-19.52.37:982][608]LogFileHelpers: InternalPromptForCheckoutAndSave took 151.962 ms (total: 1.16 sec)
+[2025.11.07-19.52.38:033][608]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-19.52.38:033][608]LogContentValidation: Enabled validators:
+[2025.11.07-19.52.38:033][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-19.52.38:033][608]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-19.52.38:033][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-19.52.38:033][608]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-19.52.38:033][608]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-19.52.38:033][608]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-19.52.38:034][608]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ArmsCharacter Validating asset
+[2025.11.07-19.52.42:475][132]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-19.52.42:524][132]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Arms/Arm_Base] ([2] browsable assets)...
+[2025.11.07-19.52.42:524][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/Arms/Arm_Base]
+[2025.11.07-19.52.42:524][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Arms/Arm_Base" FILE="../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Arms/Arm_Base.uasset" SILENT=true
+[2025.11.07-19.52.42:537][132]LogSavePackage: Moving output files for package: /Game/Arms/Arm_Base
+[2025.11.07-19.52.42:538][132]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/Arm_Base405D41A4415B1F90E527B68570B3C017.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Arms/Arm_Base.uasset'
+[2025.11.07-19.52.42:545][132]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.678 ms (total: 1.23 sec)
+[2025.11.07-19.52.42:592][132]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-19.52.42:592][132]LogContentValidation: Enabled validators:
+[2025.11.07-19.52.42:592][132]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-19.52.42:592][132]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-19.52.42:592][132]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-19.52.42:592][132]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-19.52.42:592][132]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-19.52.42:592][132]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-19.52.42:592][132]AssetCheck: /Game/Arms/Arm_Base Validating asset
+[2025.11.07-19.52.43:825][265]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.07-19.52.43:830][265]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.11.07-19.52.43:830][265]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.11.07-19.52.43:832][265]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.090 ms (total: 17.290 ms)
+[2025.11.07-19.52.43:833][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.07-19.52.43:867][265]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.07-19.52.43:870][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003584s)
+[2025.11.07-19.52.43:870][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003617s)
+[2025.11.07-19.52.43:888][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.11.07-19.52.43:892][265]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.11.07-19.52.43:894][265]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.07-19.52.43:894][265]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.07-19.52.43:894][265]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.07-19.52.43:894][265]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.07-19.52.43:895][265]LogWorldPartition: Display: WorldPartition initialize took 1.085 ms (total: 230.095 ms)
+[2025.11.07-19.52.43:895][265]LogPlayLevel: PIE: World Init took: (0.002372s)
+[2025.11.07-19.52.43:895][265]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.11.07-19.52.43:895][265]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.07-19.52.43:895][265]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.07-19.52.43:895][265]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.07-19.52.43:895][265]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.07-19.52.43:895][265]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.07-19.52.43:895][265]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.07-19.52.43:895][265]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.07-19.52.43:895][265]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.07-19.52.43:895][265]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.07-19.52.43:895][265]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.07-19.52.43:895][265]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.07-19.52.43:898][265]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.07-19.52.43:913][265]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.07-19.52.43:914][265]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.07-19.52.43:914][265]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.07-19.52.43:914][265]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.07-19.52.43:914][265]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.11.07-19.52.43:914][265]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.11.07-19.52.43:916][265]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.11.07-19.52.43:916][265]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.11.07-19.52.43:916][265]LogInit: FAudioDevice initialized with ID 11.
+[2025.11.07-19.52.43:916][265]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2025.11.07-19.52.43:916][265]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.11.07-19.52.43:918][265]LogLoad: Game class is 'BP_ArmsGamemode_C'
+[2025.11.07-19.52.43:920][265]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.11.07-12.52.43
+[2025.11.07-19.52.43:921][265]LogWorld: Bringing up level for play took: 0.002199
+[2025.11.07-19.52.43:922][265]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2025.11.07-19.52.43:927][265]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 100
+[2025.11.07-19.52.43:927][265]PIE: Server logged in
+[2025.11.07-19.52.43:928][265]PIE: Play in editor total start time 0.097 seconds.
+[2025.11.07-19.52.44:074][271]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.52.44:189][283]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.52.48:202][698]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] Arm_Base0
+[2025.11.07-19.52.48:612][738]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] 
+[2025.11.07-19.52.48:614][738]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.52.49:680][841]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] Arm_Base0
+[2025.11.07-19.52.49:986][871]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] 
+[2025.11.07-19.52.49:986][871]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.52.50:562][927]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.07-19.52.50:594][930]LogBlueprintUserMessages: [AIController_Enemy_C_0] Attacking
+[2025.11.07-19.52.50:594][930]LogBlueprintUserMessages: [TestEnemyM_C_UAID_A0AD9F2EAC92D59F02_1153746889] Attack
+[2025.11.07-19.52.51:081][981]LogBlueprintUserMessages: [BP_HealthComp] 495.0
+[2025.11.07-19.52.51:128][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-19.52.51:128][982]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.07-19.52.51:129][982]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.07-19.52.51:130][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-19.52.51:130][982]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.11.07-19.52.51:134][982]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.07-19.52.51:138][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-19.52.51:154][982]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.07-19.52.51:154][982]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.11.07-19.52.51:154][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.11.07-19.52.51:156][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.11.07-19.52.51:160][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-19.52.51:162][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.11.07-19.52.51:215][984]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2025.11.07-19.53.16:527][891]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Weapons/Weapon_Base.Weapon_Base
+[2025.11.07-19.53.16:527][891]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_32
+[2025.11.07-19.53.20:049][244]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Weapons/WeaponDrop_Base.WeaponDrop_Base
+[2025.11.07-19.53.20:049][244]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_33
+[2025.11.07-19.53.39:666][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.11.07-19.53.39:672][528]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_14.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.53.39:675][528]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_23.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.53.39:675][528]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_22.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.53.39:675][528]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_15.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.53.39:701][528]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_18.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.53.39:701][528]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_19.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.53.39:703][528]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_26.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.53.39:703][528]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_27.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.53.40:263][585]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-19.53.40:309][585]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/WeaponDrop_Base] ([2] browsable assets)...
+[2025.11.07-19.53.40:309][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/WeaponDrop_Base]
+[2025.11.07-19.53.40:309][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/WeaponDrop_Base" FILE="../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Weapons/WeaponDrop_Base.uasset" SILENT=true
+[2025.11.07-19.53.40:315][585]LogSavePackage: Moving output files for package: /Game/Weapons/WeaponDrop_Base
+[2025.11.07-19.53.40:316][585]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/WeaponDrop_BaseE28A95EE4B0010E453B1D3B02183E21E.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Weapons/WeaponDrop_Base.uasset'
+[2025.11.07-19.53.40:325][585]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.222 ms (total: 1.29 sec)
+[2025.11.07-19.53.40:359][585]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-19.53.40:359][585]LogContentValidation: Enabled validators:
+[2025.11.07-19.53.40:359][585]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-19.53.40:359][585]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-19.53.40:359][585]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-19.53.40:359][585]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-19.53.40:359][585]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-19.53.40:359][585]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-19.53.40:359][585]AssetCheck: /Game/Weapons/WeaponDrop_Base Validating asset
+[2025.11.07-19.54.15:981][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.07-19.54.15:987][838]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_31.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.54.15:990][838]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_22.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.54.15:990][838]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_23.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.54.15:990][838]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_30.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.54.16:004][838]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_34.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.54.16:004][838]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_35.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.54.16:006][838]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_26.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.54.16:006][838]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Arm_Base_C_CHILDACTOR_27.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.11.07-19.54.16:639][902]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-19.54.16:693][902]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/WeaponDrop_Base] ([2] browsable assets)...
+[2025.11.07-19.54.16:693][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/WeaponDrop_Base]
+[2025.11.07-19.54.16:693][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/WeaponDrop_Base" FILE="../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Weapons/WeaponDrop_Base.uasset" SILENT=true
+[2025.11.07-19.54.16:700][902]LogSavePackage: Moving output files for package: /Game/Weapons/WeaponDrop_Base
+[2025.11.07-19.54.16:700][902]LogSavePackage: Moving '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Saved/WeaponDrop_BaseA969B801424E30AE210024B4A3F610DC.tmp' to '../../../../../../Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Weapons/WeaponDrop_Base.uasset'
+[2025.11.07-19.54.16:707][902]LogFileHelpers: InternalPromptForCheckoutAndSave took 68.956 ms (total: 1.36 sec)
+[2025.11.07-19.54.16:743][902]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-19.54.16:743][902]LogContentValidation: Enabled validators:
+[2025.11.07-19.54.16:743][902]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-19.54.16:743][902]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-19.54.16:743][902]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-19.54.16:743][902]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-19.54.16:743][902]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-19.54.16:743][902]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-19.54.16:743][902]AssetCheck: /Game/Weapons/WeaponDrop_Base Validating asset
+[2025.11.07-19.54.17:820][ 19]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.07-19.54.17:826][ 19]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.11.07-19.54.17:826][ 19]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.11.07-19.54.17:828][ 19]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.141 ms (total: 19.432 ms)
+[2025.11.07-19.54.17:828][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.07-19.54.17:869][ 19]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.07-19.54.17:873][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003615s)
+[2025.11.07-19.54.17:873][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003652s)
+[2025.11.07-19.54.17:889][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.11.07-19.54.17:894][ 19]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.11.07-19.54.17:895][ 19]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.07-19.54.17:896][ 19]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.07-19.54.17:896][ 19]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.07-19.54.17:896][ 19]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.07-19.54.17:897][ 19]LogWorldPartition: Display: WorldPartition initialize took 1.064 ms (total: 231.160 ms)
+[2025.11.07-19.54.17:897][ 19]LogPlayLevel: PIE: World Init took: (0.002353s)
+[2025.11.07-19.54.17:897][ 19]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.11.07-19.54.17:897][ 19]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.07-19.54.17:897][ 19]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.07-19.54.17:897][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.07-19.54.17:897][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.07-19.54.17:897][ 19]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.07-19.54.17:897][ 19]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.07-19.54.17:897][ 19]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.07-19.54.17:897][ 19]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.07-19.54.17:897][ 19]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.07-19.54.17:897][ 19]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.07-19.54.17:897][ 19]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.07-19.54.17:900][ 19]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.07-19.54.17:914][ 19]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.11.07-19.54.17:915][ 19]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.07-19.54.17:915][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.07-19.54.17:915][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.07-19.54.17:915][ 19]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.11.07-19.54.17:915][ 19]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.11.07-19.54.17:917][ 19]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.11.07-19.54.17:917][ 19]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.11.07-19.54.17:918][ 19]LogInit: FAudioDevice initialized with ID 12.
+[2025.11.07-19.54.17:918][ 19]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2025.11.07-19.54.17:918][ 19]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.11.07-19.54.17:920][ 19]LogLoad: Game class is 'BP_ArmsGamemode_C'
+[2025.11.07-19.54.17:922][ 19]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.11.07-12.54.17
+[2025.11.07-19.54.17:923][ 19]LogWorld: Bringing up level for play took: 0.002267
+[2025.11.07-19.54.17:925][ 19]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2025.11.07-19.54.17:928][ 19]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 100
+[2025.11.07-19.54.17:928][ 19]PIE: Server logged in
+[2025.11.07-19.54.17:929][ 19]PIE: Play in editor total start time 0.103 seconds.
+[2025.11.07-19.54.18:282][ 46]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.54.18:398][ 58]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.54.20:571][276]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] Arm_Base0
+[2025.11.07-19.54.20:851][303]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] 
+[2025.11.07-19.54.20:852][303]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.54.21:292][345]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.11.07-19.54.23:766][607]LogBlueprintUserMessages: [AIController_Enemy_C_0] Attacking
+[2025.11.07-19.54.23:766][607]LogBlueprintUserMessages: [TestEnemyM_C_UAID_A0AD9F2EAC92D59F02_1153746889] Attack
+[2025.11.07-19.54.24:515][687]LogBlueprintUserMessages: [AIController_Enemy_C_0] Hello
+[2025.11.07-19.54.24:515][687]LogBlueprintUserMessages: [BTT_TryAttack_C_0] Finished Attack
+[2025.11.07-19.54.26:080][844]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] Arm_Base0
+[2025.11.07-19.54.26:343][869]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] 
+[2025.11.07-19.54.26:343][869]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.54.28:701][125]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] Arm_Base0
+[2025.11.07-19.54.28:974][151]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] 
+[2025.11.07-19.54.28:975][151]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.54.29:972][252]LogBlueprintUserMessages: [AIController_Enemy_C_0] Attacking
+[2025.11.07-19.54.29:972][252]LogBlueprintUserMessages: [TestEnemyM_C_UAID_A0AD9F2EAC92D59F02_1153746889] Attack
+[2025.11.07-19.54.30:464][311]LogBlueprintUserMessages: [BP_HealthComp] 495.0
+[2025.11.07-19.54.30:713][341]LogBlueprintUserMessages: [AIController_Enemy_C_0] Hello
+[2025.11.07-19.54.30:713][341]LogBlueprintUserMessages: [BTT_TryAttack_C_0] Finished Attack
+[2025.11.07-19.54.32:822][566]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] Arm_Base0
+[2025.11.07-19.54.33:065][590]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] 
+[2025.11.07-19.54.33:066][590]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.54.34:873][774]LogBlueprintUserMessages: [AIController_Enemy_C_1] Attacking
+[2025.11.07-19.54.34:873][774]LogBlueprintUserMessages: [TestEnemyM_C_0] Attack
+[2025.11.07-19.54.35:006][788]LogBlueprintUserMessages: [AIController_Enemy_C_0] Attacking
+[2025.11.07-19.54.35:006][788]LogBlueprintUserMessages: [TestEnemyM_C_UAID_A0AD9F2EAC92D59F02_1153746889] Attack
+[2025.11.07-19.54.35:481][838]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.54.35:512][841]LogBlueprintUserMessages: [BP_HealthComp] 23.0
+[2025.11.07-19.54.35:513][841]LogBlueprintUserMessages: [BP_HealthComp] 21.0
+[2025.11.07-19.54.35:527][842]LogBlueprintUserMessages: [BP_HealthComp] 19.0
+[2025.11.07-19.54.35:527][842]LogBlueprintUserMessages: [BP_HealthComp] 17.0
+[2025.11.07-19.54.35:527][842]LogBlueprintUserMessages: [BP_HealthComp] 15.0
+[2025.11.07-19.54.35:527][842]LogBlueprintUserMessages: [BP_HealthComp] 13.0
+[2025.11.07-19.54.35:624][852]LogBlueprintUserMessages: [AIController_Enemy_C_1] Hello
+[2025.11.07-19.54.35:624][852]LogBlueprintUserMessages: [BTT_TryAttack_C_0] Finished Attack
+[2025.11.07-19.54.35:749][865]LogBlueprintUserMessages: [AIController_Enemy_C_0] Hello
+[2025.11.07-19.54.35:749][865]LogBlueprintUserMessages: [BTT_TryAttack_C_0] Finished Attack
+[2025.11.07-19.54.37:563][ 49]LogBlueprintUserMessages: [BP_HealthComp] 23.0
+[2025.11.07-19.54.37:563][ 49]LogBlueprintUserMessages: [BP_HealthComp] 21.0
+[2025.11.07-19.54.37:563][ 49]LogBlueprintUserMessages: [BP_HealthComp] 19.0
+[2025.11.07-19.54.37:573][ 50]LogBlueprintUserMessages: [BP_HealthComp] 17.0
+[2025.11.07-19.54.37:573][ 50]LogBlueprintUserMessages: [BP_HealthComp] 15.0
+[2025.11.07-19.54.37:574][ 50]LogBlueprintUserMessages: [BP_HealthComp] 13.0
+[2025.11.07-19.54.38:279][125]LogBlueprintUserMessages: [AIController_Enemy_C_0] Attacking
+[2025.11.07-19.54.38:279][125]LogBlueprintUserMessages: [TestEnemyM_C_UAID_A0AD9F2EAC92D59F02_1153746889] Attack
+[2025.11.07-19.54.38:575][156]LogBlueprintUserMessages: [BP_HealthComp] 11.0
+[2025.11.07-19.54.38:585][157]LogBlueprintUserMessages: [BP_HealthComp] 9.0
+[2025.11.07-19.54.38:614][160]LogBlueprintUserMessages: [BP_HealthComp] 7.0
+[2025.11.07-19.54.38:614][160]LogBlueprintUserMessages: [BP_HealthComp] 5.0
+[2025.11.07-19.54.39:027][202]LogBlueprintUserMessages: [AIController_Enemy_C_0] Hello
+[2025.11.07-19.54.39:027][202]LogBlueprintUserMessages: [BTT_TryAttack_C_0] Finished Attack
+[2025.11.07-19.54.39:834][283]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.54.39:917][291]LogBlueprintUserMessages: [BP_HealthComp] 3.0
+[2025.11.07-19.54.40:405][339]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.54.40:794][374]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.54.41:340][425]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.54.41:615][449]LogBlueprintUserMessages: [BP_HealthComp] 11.0
+[2025.11.07-19.54.41:884][474]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.54.41:895][475]LogBlueprintUserMessages: [BP_HealthComp] 1.0
+[2025.11.07-19.54.42:482][530]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.54.42:563][537]LogBlueprintUserMessages: [BP_HealthComp] 9.0
+[2025.11.07-19.54.42:563][537]LogBlueprintUserMessages: [BP_HealthComp] 7.0
+[2025.11.07-19.54.42:563][537]LogBlueprintUserMessages: [BP_HealthComp] 5.0
+[2025.11.07-19.54.42:563][537]LogBlueprintUserMessages: [BP_HealthComp] 3.0
+[2025.11.07-19.54.42:564][537]LogBlueprintUserMessages: [BP_HealthComp] 1.0
+[2025.11.07-19.54.42:564][537]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.54.42:564][537]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.54.44:265][692]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.54.44:580][723]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.54.44:612][726]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 150
+[2025.11.07-19.54.44:729][737]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.54.44:808][745]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.54.44:809][745]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.54.46:594][926]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 200
+[2025.11.07-19.54.47:751][ 44]LogBlueprintUserMessages: [AIController_Enemy_C_3] Attacking
+[2025.11.07-19.54.47:751][ 44]LogBlueprintUserMessages: [TestEnemyR_C_0] Attack
+[2025.11.07-19.54.47:831][ 52]LogBlueprintUserMessages: [EnemyWaveController_C_UAID_A0AD9F2EAC92DE9F02_1709793471] Wave 1 Complete: +15 Score
+[2025.11.07-19.54.48:385][107]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.54.48:664][133]LogBlueprintUserMessages: [BP_HealthComp] 8.0
+[2025.11.07-19.54.48:684][135]LogBlueprintUserMessages: [BP_HealthComp] 6.0
+[2025.11.07-19.54.48:684][135]LogBlueprintUserMessages: [BP_HealthComp] 4.0
+[2025.11.07-19.54.48:684][135]LogBlueprintUserMessages: [BP_HealthComp] 2.0
+[2025.11.07-19.54.48:694][136]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.54.48:695][136]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.54.49:110][175]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.54.49:640][228]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.54.49:760][239]LogBlueprintUserMessages: [BP_HealthComp] 23.0
+[2025.11.07-19.54.49:770][240]LogBlueprintUserMessages: [BP_HealthComp] 21.0
+[2025.11.07-19.54.49:771][240]LogBlueprintUserMessages: [BP_HealthComp] 19.0
+[2025.11.07-19.54.49:771][240]LogBlueprintUserMessages: [BP_HealthComp] 17.0
+[2025.11.07-19.54.49:771][240]LogBlueprintUserMessages: [BP_HealthComp] 15.0
+[2025.11.07-19.54.49:771][240]LogBlueprintUserMessages: [BP_HealthComp] 13.0
+[2025.11.07-19.54.49:771][240]LogBlueprintUserMessages: [BP_HealthComp] 11.0
+[2025.11.07-19.54.49:968][259]LogBlueprintUserMessages: [BP_HealthComp] 9.0
+[2025.11.07-19.54.50:096][271]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.54.50:188][280]LogBlueprintUserMessages: [BP_HealthComp] 7.0
+[2025.11.07-19.54.50:298][291]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.54.50:440][305]LogBlueprintUserMessages: [BP_HealthComp] 5.0
+[2025.11.07-19.54.50:613][322]LogBlueprintUserMessages: [BP_HealthComp] 3.0
+[2025.11.07-19.54.50:800][340]LogBlueprintUserMessages: [BP_HealthComp] 1.0
+[2025.11.07-19.54.50:969][357]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.54.50:970][357]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.54.51:274][387]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.54.51:907][453]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 250
+[2025.11.07-19.54.53:455][613]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 300
+[2025.11.07-19.54.55:078][778]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 200
+[2025.11.07-19.54.55:555][825]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 100
+[2025.11.07-19.54.56:082][877]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 0
+[2025.11.07-19.54.57:993][ 71]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.54.58:333][103]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.54.59:281][194]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.55.00:135][270]LogBlueprintUserMessages: [BP_HealthComp] 8.0
+[2025.11.07-19.55.00:264][282]LogBlueprintUserMessages: [BP_HealthComp] 6.0
+[2025.11.07-19.55.00:285][284]LogBlueprintUserMessages: [BP_HealthComp] 4.0
+[2025.11.07-19.55.00:564][308]LogBlueprintUserMessages: [BP_HealthComp] 2.0
+[2025.11.07-19.55.00:575][309]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.55.00:576][309]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.55.01:007][347]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.55.02:367][487]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 10
+[2025.11.07-19.55.03:957][641]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.55.03:960][641]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 60
+[2025.11.07-19.55.04:342][676]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.55.04:352][677]LogBlueprintUserMessages: [BP_HealthComp] 8.0
+[2025.11.07-19.55.04:362][678]LogBlueprintUserMessages: [BP_HealthComp] 6.0
+[2025.11.07-19.55.04:363][678]LogBlueprintUserMessages: [BP_HealthComp] 4.0
+[2025.11.07-19.55.04:363][678]LogBlueprintUserMessages: [BP_HealthComp] 2.0
+[2025.11.07-19.55.04:535][695]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.55.04:536][695]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.55.15:529][812]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.55.16:194][874]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.55.17:823][ 41]LogBlueprintUserMessages: [EnemyWaveController_C_UAID_A0AD9F2EAC92DE9F02_1709793471] Wave 2 Complete: +30 Score
+[2025.11.07-19.55.18:840][148]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.55.19:401][209]LogBlueprintUserMessages: [BP_HealthComp] 23.0
+[2025.11.07-19.55.19:410][210]LogBlueprintUserMessages: [BP_HealthComp] 21.0
+[2025.11.07-19.55.19:581][229]LogBlueprintUserMessages: [BP_HealthComp] 19.0
+[2025.11.07-19.55.19:598][231]LogBlueprintUserMessages: [BP_HealthComp] 17.0
+[2025.11.07-19.55.19:769][250]LogBlueprintUserMessages: [BP_HealthComp] 15.0
+[2025.11.07-19.55.19:777][251]LogBlueprintUserMessages: [BP_HealthComp] 13.0
+[2025.11.07-19.55.19:970][268]LogBlueprintUserMessages: [BP_HealthComp] 11.0
+[2025.11.07-19.55.19:970][268]LogBlueprintUserMessages: [BP_HealthComp] 9.0
+[2025.11.07-19.55.19:970][268]LogBlueprintUserMessages: [BP_HealthComp] 7.0
+[2025.11.07-19.55.19:971][268]LogBlueprintUserMessages: [BP_HealthComp] 5.0
+[2025.11.07-19.55.19:971][268]LogBlueprintUserMessages: [BP_HealthComp] 3.0
+[2025.11.07-19.55.19:978][269]LogBlueprintUserMessages: [BP_HealthComp] 1.0
+[2025.11.07-19.55.19:987][270]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.55.19:988][270]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.55.20:144][286]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.55.20:706][344]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 110
+[2025.11.07-19.55.21:572][432]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.55.22:151][485]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.55.24:277][685]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.55.25:090][759]LogBlueprintUserMessages: [BP_HealthComp] 23.0
+[2025.11.07-19.55.25:091][759]LogBlueprintUserMessages: [BP_HealthComp] 21.0
+[2025.11.07-19.55.25:091][759]LogBlueprintUserMessages: [BP_HealthComp] 19.0
+[2025.11.07-19.55.25:101][760]LogBlueprintUserMessages: [BP_HealthComp] 17.0
+[2025.11.07-19.55.25:226][771]LogBlueprintUserMessages: [BP_HealthComp] 15.0
+[2025.11.07-19.55.25:236][772]LogBlueprintUserMessages: [BP_HealthComp] 13.0
+[2025.11.07-19.55.25:367][783]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.55.25:377][784]LogBlueprintUserMessages: [BP_HealthComp] 11.0
+[2025.11.07-19.55.25:377][784]LogBlueprintUserMessages: [BP_HealthComp] 9.0
+[2025.11.07-19.55.25:518][797]LogBlueprintUserMessages: [BP_HealthComp] 7.0
+[2025.11.07-19.55.25:518][797]LogBlueprintUserMessages: [BP_HealthComp] 5.0
+[2025.11.07-19.55.25:655][810]LogBlueprintUserMessages: [BP_HealthComp] 3.0
+[2025.11.07-19.55.25:665][811]LogBlueprintUserMessages: [BP_HealthComp] 1.0
+[2025.11.07-19.55.25:794][823]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.55.25:795][823]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.55.27:695][  0]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.55.27:864][ 16]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.55.27:949][ 24]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 160
+[2025.11.07-19.55.29:016][127]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 210
+[2025.11.07-19.55.30:052][228]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.55.30:423][263]LogBlueprintUserMessages: [BP_HealthComp] 8.0
+[2025.11.07-19.55.30:423][263]LogBlueprintUserMessages: [BP_HealthComp] 6.0
+[2025.11.07-19.55.30:423][263]LogBlueprintUserMessages: [BP_HealthComp] 4.0
+[2025.11.07-19.55.30:423][263]LogBlueprintUserMessages: [BP_HealthComp] 2.0
+[2025.11.07-19.55.30:423][263]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.55.30:424][263]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.55.30:726][291]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.55.31:892][411]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 260
+[2025.11.07-19.55.40:140][261]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.55.40:411][286]LogBlueprintUserMessages: [BP_HealthComp] 23.0
+[2025.11.07-19.55.40:411][286]LogBlueprintUserMessages: [BP_HealthComp] 21.0
+[2025.11.07-19.55.40:411][286]LogBlueprintUserMessages: [BP_HealthComp] 19.0
+[2025.11.07-19.55.40:422][287]LogBlueprintUserMessages: [BP_HealthComp] 17.0
+[2025.11.07-19.55.40:422][287]LogBlueprintUserMessages: [BP_HealthComp] 15.0
+[2025.11.07-19.55.40:422][287]LogBlueprintUserMessages: [BP_HealthComp] 13.0
+[2025.11.07-19.55.40:422][287]LogBlueprintUserMessages: [BP_HealthComp] 11.0
+[2025.11.07-19.55.40:422][287]LogBlueprintUserMessages: [BP_HealthComp] 9.0
+[2025.11.07-19.55.40:422][287]LogBlueprintUserMessages: [BP_HealthComp] 7.0
+[2025.11.07-19.55.40:422][287]LogBlueprintUserMessages: [BP_HealthComp] 5.0
+[2025.11.07-19.55.40:422][287]LogBlueprintUserMessages: [BP_HealthComp] 3.0
+[2025.11.07-19.55.40:431][288]LogBlueprintUserMessages: [BP_HealthComp] 1.0
+[2025.11.07-19.55.40:563][301]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.55.40:564][301]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.55.40:866][329]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.55.41:955][440]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 310
+[2025.11.07-19.55.44:611][726]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.55.44:755][742]LogBlueprintUserMessages: [BP_HealthComp] 23.0
+[2025.11.07-19.55.44:755][742]LogBlueprintUserMessages: [BP_HealthComp] 21.0
+[2025.11.07-19.55.44:764][743]LogBlueprintUserMessages: [BP_HealthComp] 19.0
+[2025.11.07-19.55.44:764][743]LogBlueprintUserMessages: [BP_HealthComp] 17.0
+[2025.11.07-19.55.44:772][744]LogBlueprintUserMessages: [BP_HealthComp] 15.0
+[2025.11.07-19.55.44:976][767]LogBlueprintUserMessages: [BP_HealthComp] 13.0
+[2025.11.07-19.55.44:985][768]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.55.44:985][768]LogBlueprintUserMessages: [BP_HealthComp] 11.0
+[2025.11.07-19.55.44:986][768]LogBlueprintUserMessages: [BP_HealthComp] 9.0
+[2025.11.07-19.55.45:424][820]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.55.45:599][837]LogBlueprintUserMessages: [BP_HealthComp] 7.0
+[2025.11.07-19.55.45:609][838]LogBlueprintUserMessages: [BP_HealthComp] 5.0
+[2025.11.07-19.55.45:610][838]LogBlueprintUserMessages: [BP_HealthComp] 3.0
+[2025.11.07-19.55.45:740][850]LogBlueprintUserMessages: [BP_HealthComp] 1.0
+[2025.11.07-19.55.45:750][851]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.55.45:751][851]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.55.45:911][866]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.55.46:787][956]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 360
+[2025.11.07-19.55.47:822][ 62]LogBlueprintUserMessages: [EnemyWaveController_C_UAID_A0AD9F2EAC92DE9F02_1709793471] Wave 3 Complete: +45 Score
+[2025.11.07-19.55.56:653][954]LogBlueprintUserMessages: [PS_ArmsPlayerState_C_0] 260
+[2025.11.07-19.56.00:553][352]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] true
+[2025.11.07-19.56.00:981][392]LogBlueprintUserMessages: [BP_HealthComp] 8.0
+[2025.11.07-19.56.00:981][392]LogBlueprintUserMessages: [BP_HealthComp] 6.0
+[2025.11.07-19.56.00:981][392]LogBlueprintUserMessages: [BP_HealthComp] 4.0
+[2025.11.07-19.56.00:982][392]LogBlueprintUserMessages: [BP_HealthComp] 2.0
+[2025.11.07-19.56.00:992][393]LogBlueprintUserMessages: [BP_HealthComp] 0.0
+[2025.11.07-19.56.00:993][393]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.11.07-19.56.01:365][428]LogBlueprintUserMessages: [BP_ArmsCharacter_C_0] false
+[2025.11.07-19.56.01:961][483]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-19.56.01:961][483]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.07-19.56.01:962][483]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.07-19.56.01:963][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-19.56.01:963][483]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.11.07-19.56.01:968][483]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.07-19.56.01:973][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-19.56.01:989][483]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.07-19.56.01:989][483]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.11.07-19.56.01:989][483]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.11.07-19.56.01:992][483]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.11.07-19.56.01:995][483]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-19.56.01:998][483]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.11.07-19.56.02:022][484]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2025.11.07-19.57.02:086][349]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5490.759766
+[2025.11.07-19.57.02:195][362]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.07-19.57.02:195][363]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5490.859375, Update Interval: 351.401093
+[2025.11.07-20.03.51:034][836]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5899.757324
+[2025.11.07-20.03.51:153][850]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.07-20.03.51:153][850]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5899.867188, Update Interval: 323.571899
