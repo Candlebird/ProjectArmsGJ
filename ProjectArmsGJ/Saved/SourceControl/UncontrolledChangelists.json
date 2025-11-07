@@ -33,6 +33,15 @@
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Arms/Meshes/PH_Arm.uasset",
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Arms/Meshes/PH_Arm_Skeleton.uasset",
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Input/Actions/IA_Inventory.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Interactable/Drop_Base.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Interactable/Coin_Drop.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Meshes/CoinMesh.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Enemies/EnemyPawn_Base.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Blueprints/PS_ArmsPlayerState.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HO/2B6KTX1NYDQVVOI98OR6LA.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/ZJ/QAUOUCYNN2QR6D7S1U8ETT.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/55/PKYOK0FFH3VDM66ZJZYGB9.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/MN/1RQDB444VL3ZNJ1PJM5KVU.uasset",
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset"
 			]
