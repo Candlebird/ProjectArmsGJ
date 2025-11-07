@@ -6,7 +6,6 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Input/Actions/IA_SwapSides.uasset",
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Input/IMC_Default.uasset",
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Input/Actions/IA_FirePrimary.uasset",
@@ -30,6 +29,11 @@
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Characters/PlayerArmsTest.uasset",
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Weapons/Weapon_Base.uasset",
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Weapons/Projectile_Base.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Weapons/WeaponDrop_Base.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Arms/Meshes/PH_Arm.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/Arms/Meshes/PH_Arm_Skeleton.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Input/Actions/IA_Inventory.uasset",
+				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/brest/source/GameDesignRepos/ProjectArmsGJ/ProjectArmsGJ/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset"
 			]
 		}
